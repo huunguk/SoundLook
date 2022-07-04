@@ -292,7 +292,7 @@
 #best .slidecontainer {
   width: 960px;
   height: 600px;
-  margin: 0 auto; 
+  margin-left: 420px; 
   position: relative;
   overflow: hidden;  
 }
@@ -306,6 +306,7 @@
   background-color: rgb(249, 248, 253);
   border: 1px solid #999;
   box-sizing: border-box;
+  
 }
 
 #best .slidecontainer .list1{
@@ -363,7 +364,7 @@
 /* 슬라이더 핸들(클릭해서 드래그하는 부분) 커스텀 
 (Chrome, Opera, Safari, Edge 브라우저를 위해서는 -webkit-을,
 Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
-.slider::-webkit-slider-thumb {
+.sliderrange::-webkit-slider-thumb {
   -webkit-appearance: none; /* 기본 CSS 스타일을 적용하지 않기 위해서 */
   appearance: none; /* 기본 CSS 스타일을 적용하지 않기 위해서 */
   width: 30px; /* 슬라이더 핸들 길이 */
