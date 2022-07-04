@@ -348,7 +348,7 @@
 }
 
 
-#best .slidecontainer .slider {
+#best .slidecontainer .sliderrange {
   -webkit-appearance: none; /* 기본 CSS 스타일을 적용하지 않기 위해서 */
   position: absolute;
   top: 520px;
@@ -379,23 +379,26 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   left: 0;
 }
 /* 턴테이블 */
+
 #turntable {
   width: 100%;
-  height: 700px;
-  /* background-color: gray; */
+  height: 800px;
 }
 
 #turntable h3 {
-  font-size: 42px;
+  height: 100px;
+  font-size: 38px;
   text-align: center;
-  padding-bottom: 80px;
+  padding: 0px 0 50px 0;
+  font-size: 60px;
+  font-family: 'Hahmlet', serif;
+  color: black;
 }
 
 #turntable .container {
-  width: 80%;
+  width: 50%;
   height: 500px;
   margin: 0 auto;
-  /* background-color: aqua; */
   position: relative;
   overflow: hidden;
 }
@@ -407,10 +410,13 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   left: 0;
 }
 
-#turntable .item>img {
+#turntable .slider .item{
   width: 100%;
 }
 
+#turntable .slider .item > img{
+  width: 100%;
+}
 
 #turntable .container ul {
   list-style: none;
@@ -418,38 +424,6 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   -o-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
   transition: all 0.25s cubic-bezier(1, .01, .32, 1);
 }
-
-/*
-
-#turntable div h3 {
-  height: 200px;
-  text-align: center;
-  padding-top: 50px;
-  font-size: 60px;
-  font-family: 'Hahmlet', serif;
-  color: black;
-}
-
-#turntable .turntable_image ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#turntable .turntable_image ul li {
-  padding: 20px;
-}
-
-#turntable .turntable_image ul li p {
-  font-size: 30px;
-  text-align: center;
-  padding-top: 10px;
-}
-
-#turntable .turntable_image ul li img {
-  width: 100%;
-  height: 350px;
-} */
 
 
 /* MAGAZINE */

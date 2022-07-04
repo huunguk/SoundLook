@@ -1,3 +1,5 @@
+
+
 var slideWrapper = document.querySelector('.container');
 var slides = document.querySelectorAll('.item');
 var totalSlides = slides.length; // item의 갯수

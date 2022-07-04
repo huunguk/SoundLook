@@ -1,10 +1,10 @@
-var slider = document.getElementById("myRange");
+var sliderrange = document.getElementById("myRange");
 var output = document.getElementById("value");
 var list = document.querySelectorAll('.list');
 
-output.innerHTML = slider.value;
+output.innerHTML = sliderrange.value;
 
-slider.oninput = function () {
+sliderrange.oninput = function () {
     for(let i=0; i < list.length; i++){
         console.log(list[i]);        
        
