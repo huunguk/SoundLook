@@ -290,86 +290,80 @@
   margin: 100px 0;
 }
 
-#best>h2 {
+#best > h2 {
   /* background-color: aquamarine; */
   padding: 100px 0 30px 0;
   text-align: center;
   font-size: 40px;
 }
 
+#best .slidebox{
+  margin: 0 auto;
+  display: flex;
+  width: 960px;
+  flex-direction: column;
+  justify-content: center;
+}
 
 #best .slidecontainer {
-  width: 960px;
-  height: 600px;
-  margin-left: 420px;
-  position: relative;
+  width: 960px;     
   overflow: hidden;
-}
-
-#best .slidecontainer .list {
-  width: 960px;
-  height: 466px;
-  float: left;
-  display: flex;
-  justify-content: space-around;
-  background-color: rgb(249, 248, 253);
+  margin-bottom: 50px;
   border: 1px solid #999;
   box-sizing: border-box;
-
+  
 }
 
-#best .slidecontainer .list1 {
-  position: absolute;
-  top: 0;
-  left: 0;
+#best .slidecontainer ul {  
+  display: flex;  
+  transition: all .5s ease-in-out;
 }
 
-#best .slidecontainer .list2 {
-  position: absolute;
-  top: 0;
-  left: 960px;
+#best .slidecontainer ul li.list{
+  width: 960px;
+  height: 466px;
+  display: flex;
+  flex: none;
+  border-right: 1px solid #999;
+  box-sizing: border-box;
+  background-color: rgb(249, 248, 253);
+ 
 }
 
-#best .slidecontainer .list3 {
-  position: absolute;
-  top: 0;
-  left: 1920px;
-}
 
-#best .slidecontainer .list4 {
-  position: absolute;
-  top: 0;
-  left: 2880px;
-}
-
-#best .slidecontainer .img_left {
+#best .slidecontainer ul li.list .list_img {
   width: 50%;
+  height: 50%;
   padding: 30px;
   box-sizing: border-box;
 }
 
-#best .slidecontainer .img_left>img {
-  width: 100%;
+#best .slidecontainer ul li.list .list_img img {
+  width: 95%;
+  box-shadow: 5px 5px 10px grey;  
 }
 
-#best .slidecontainer>h2 {
-  line-height: 70px;
-}
 
-#best .best_descr {
+#best .slidecontainer ul li.list .list_txt {
   width: 50%;
-  padding: 100px 0 0 30px;
-  line-height: 30px;
+  height: 200px;
+  padding: 130px 0 0 30px;  
+  box-sizing: border-box;
+   
+  
 }
-
-
-#best .slidecontainer .sliderrange {
-  -webkit-appearance: none;
-  /* 기본 CSS 스타일을 적용하지 않기 위해서 */
-  position: absolute;
-  top: 520px;
-  left: 0;
-  width: 100%;
+#best .slidecontainer ul li.list .list_txt h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+  
+}
+#best .slidecontainer ul li.list .list_txt p{
+  font-size: 13px;
+  line-height: 20px;
+  
+}
+#best .slidebox .sliderrange {
+  -webkit-appearance: none;  /* 기본 CSS 스타일을 적용하지 않기 위해서 */  
   /* 슬라이더 길이 */
   height: 15px;
   /* 슬라이더 두께 */
@@ -384,28 +378,25 @@
 /* 슬라이더 핸들(클릭해서 드래그하는 부분) 커스텀 
 (Chrome, Opera, Safari, Edge 브라우저를 위해서는 -webkit-을,
 Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
-.sliderrange::-webkit-slider-thumb {
+#best .slidebox .sliderrange::-webkit-slider-thumb {
   -webkit-appearance: none;
   /* 기본 CSS 스타일을 적용하지 않기 위해서 */
   appearance: none;
   /* 기본 CSS 스타일을 적용하지 않기 위해서 */
-  width: 30px;
+  width: 50px;
   /* 슬라이더 핸들 길이 */
-  height: 30px;
+  height: 50px;
   /* 슬라이더 핸들 높이 */
   border-radius: 50%;
   /* 핸들 모양을 원모양으로 만들기 위함 */
-  background: #000;
+  background:url(../images/lp.png) no-repeat 50% 0;
+  background-size: cover;
   /* 슬라이더 핸들 색상 */
   cursor: pointer;
   /* 슬라이더 핸들에 마우스를 갖다대면 포인터로 변경 */
 }
 
-#best .slidecontainer .p_value {
-  position: absolute;
-  top: 550px;
-  left: 0;
-}
+
 
 /* 턴테이블 */
 
