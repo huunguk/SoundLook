@@ -111,6 +111,9 @@
 #con_header .menu {
   width: 100%;
   height: 50px;
+  /* padding: 10px 80px;
+  border: 1px solid rgb(28, 45, 90);
+  border-radius: 30px; */
 }
 
 #con_header .menu ul {
@@ -120,14 +123,20 @@
   align-items: center;
 }
 
-#con_header .menu ul li {}
-
 #con_header .menu ul li a {
   font-size: 20px;
   font-weight: bold;
   color: rgb(95, 95, 95);
 }
 
+#contents .contents_line {
+  width: 60%;
+  height: 5px;
+  margin: 0 auto;
+  border-bottom: 2px solid rgb(28, 45, 90);
+  box-sizing: border-box;
+  padding-top: 15px;
+}
 
 /* product */
 .product {
@@ -281,7 +290,7 @@
   margin: 100px 0;
 }
 
-#best > h2 {
+#best>h2 {
   /* background-color: aquamarine; */
   padding: 100px 0 30px 0;
   text-align: center;
@@ -292,12 +301,12 @@
 #best .slidecontainer {
   width: 960px;
   height: 600px;
-  margin-left: 420px; 
+  margin-left: 420px;
   position: relative;
-  overflow: hidden;  
+  overflow: hidden;
 }
 
-#best .slidecontainer .list{ 
+#best .slidecontainer .list {
   width: 960px;
   height: 466px;
   float: left;
@@ -306,28 +315,31 @@
   background-color: rgb(249, 248, 253);
   border: 1px solid #999;
   box-sizing: border-box;
-  
+
 }
 
-#best .slidecontainer .list1{
+#best .slidecontainer .list1 {
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
 }
-#best .slidecontainer .list2{
+
+#best .slidecontainer .list2 {
   position: absolute;
-  top:0;
-  left:960px;  
+  top: 0;
+  left: 960px;
 }
-#best .slidecontainer .list3{
+
+#best .slidecontainer .list3 {
   position: absolute;
-  top:0;
-  left:1920px;
+  top: 0;
+  left: 1920px;
 }
-#best .slidecontainer .list4{
+
+#best .slidecontainer .list4 {
   position: absolute;
-  top:0;
-  left:2880px;  
+  top: 0;
+  left: 2880px;
 }
 
 #best .slidecontainer .img_left {
@@ -335,10 +347,12 @@
   padding: 30px;
   box-sizing: border-box;
 }
-#best .slidecontainer .img_left > img {
+
+#best .slidecontainer .img_left>img {
   width: 100%;
 }
-#best .slidecontainer > h2 {
+
+#best .slidecontainer>h2 {
   line-height: 70px;
 }
 
@@ -350,35 +364,49 @@
 
 
 #best .slidecontainer .sliderrange {
-  -webkit-appearance: none; /* 기본 CSS 스타일을 적용하지 않기 위해서 */
+  -webkit-appearance: none;
+  /* 기본 CSS 스타일을 적용하지 않기 위해서 */
   position: absolute;
   top: 520px;
   left: 0;
-  width: 100%; /* 슬라이더 길이 */
-  height: 15px; /* 슬라이더 두께 */  
-  border-radius: 5px; /* 슬라이더 모서리를 약간 둥글게 */
-  background: #ccc; /* 슬라이더 색상 */
-  outline: none; /* 슬라이더 테두리 없이 */
+  width: 100%;
+  /* 슬라이더 길이 */
+  height: 15px;
+  /* 슬라이더 두께 */
+  border-radius: 5px;
+  /* 슬라이더 모서리를 약간 둥글게 */
+  background: #ccc;
+  /* 슬라이더 색상 */
+  outline: none;
+  /* 슬라이더 테두리 없이 */
 }
 
 /* 슬라이더 핸들(클릭해서 드래그하는 부분) 커스텀 
 (Chrome, Opera, Safari, Edge 브라우저를 위해서는 -webkit-을,
 Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 .sliderrange::-webkit-slider-thumb {
-  -webkit-appearance: none; /* 기본 CSS 스타일을 적용하지 않기 위해서 */
-  appearance: none; /* 기본 CSS 스타일을 적용하지 않기 위해서 */
-  width: 30px; /* 슬라이더 핸들 길이 */
-  height: 30px; /* 슬라이더 핸들 높이 */
-  border-radius: 50%; /* 핸들 모양을 원모양으로 만들기 위함 */
-  background: #000; /* 슬라이더 핸들 색상 */
-  cursor: pointer; /* 슬라이더 핸들에 마우스를 갖다대면 포인터로 변경 */
+  -webkit-appearance: none;
+  /* 기본 CSS 스타일을 적용하지 않기 위해서 */
+  appearance: none;
+  /* 기본 CSS 스타일을 적용하지 않기 위해서 */
+  width: 30px;
+  /* 슬라이더 핸들 길이 */
+  height: 30px;
+  /* 슬라이더 핸들 높이 */
+  border-radius: 50%;
+  /* 핸들 모양을 원모양으로 만들기 위함 */
+  background: #000;
+  /* 슬라이더 핸들 색상 */
+  cursor: pointer;
+  /* 슬라이더 핸들에 마우스를 갖다대면 포인터로 변경 */
 }
 
-#best .slidecontainer .p_value{
+#best .slidecontainer .p_value {
   position: absolute;
   top: 550px;
   left: 0;
 }
+
 /* 턴테이블 */
 
 #turntable {
@@ -396,35 +424,7 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   color: black;
 }
 
-#turntable .container {
-  width: 50%;
-  height: 500px;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-}
 
-#turntable .slider {
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#turntable .slider .item{
-  width: 100%;
-}
-
-#turntable .slider .item > img{
-  width: 100%;
-}
-
-#turntable .container ul {
-  list-style: none;
-  -webkit-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
-  -o-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
-  transition: all 0.25s cubic-bezier(1, .01, .32, 1);
-}
 
 
 /* MAGAZINE */
@@ -505,40 +505,36 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 
 }
 
-
-/* #magazine .m_box {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top:80px;
-}
-
-#magazine .m_new1 {
-  width: 300px;
+/* megazine 사진 슬라이드 효과 */
+#magazine .container {
+  width: 50%;
   height: 500px;
-  border: 1px solid gray;
-  border-radius: 10px;
-  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
 }
 
-#magazine .m_new1 > .m_logo {
-  padding: 15px 15px 15px 30px;
+#magazine .slider {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-#magazine .m_new1 > .men {
-  width: 90%;
-  padding-left: 5px;
+#magazine .slider .item {
+  width: 100%;
 }
 
-#magazine .m_new1 > h3{
-  font-size: 18px;
-  padding-top: 10px;
+#magazine .slider .item>img {
+  width: 100%;
 }
 
-#magazine .m_new1 > a{
-  font-size: 16px;
-  line-height: 40px;
-} */
+#magazine .container ul {
+  list-style: none;
+  -webkit-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
+  -o-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
+  transition: all 0.25s cubic-bezier(1, .01, .32, 1);
+}
 
 
 /* footer */
