@@ -149,8 +149,20 @@
 /* product 1 */
 .product .product_img {
   width: 100%;
+  display: none;
   /* height:1200px; */
   /* background-color: aquamarine; */
+}
+
+.product .product_img:nth-child(1){
+  display: block;
+}
+
+.product .product_img:nth-child(2){
+  display: block;
+}
+.product .product_img:nth-child(3){
+  display: block;
 }
 
 .product .product_img ul {
@@ -172,14 +184,12 @@
   position: relative;
 }
 
+
 .product .product_img .product_txt:before {
   content: '';
   background: #fff;
-  width: 0px;
-  height: 1px;
-  position: absolute;
-  right: 20px;
-  top: 20px;
+  width: 0px; height: 1px;
+  position: absolute; right: 20px; top: 20px;
   transition: all 0.35s ease;
 }
 
@@ -187,19 +197,16 @@
 .product .product_img .product_txt:after {
   content: '';
   background: #fff;
-  width: 1px;
-  height: 0px;
-  position: absolute;
-  right: 20px;
-  top: 20px;
+  width: 1px; height: 0px;
+  position: absolute; right: 20px; top: 20px;
   transition: all 0.35s ease;
 }
 
-.product .product_img .back {
+.product .product_img .back{
   position: absolute;
   left: 0;
   bottom: 0;
-  top: 40px;
+  top:40px;
   color: black;
   width: 100%;
   padding: 15px;
@@ -212,19 +219,19 @@
 .product .product_img .back h3 {
   font-size: 16px;
   line-height: 40px;
-  overflow: hidden;
+  overflow: hidden; 
   white-space: nowrap;
   text-overflow: ellipsis;
   padding-bottom: 10px;
 }
 
-.product .product_img .back p {
+.product .product_img .back p{
   font-size: 18px;
   font-weight: bold;
-  overflow: hidden;
+  overflow: hidden; 
   white-space: nowrap;
   text-overflow: ellipsis;
-  color: navy;
+  color:navy;
 }
 
 .product_txt:hover .back {
@@ -244,25 +251,27 @@
 
 .product .product_img .product_txt span {
   font-size: 16px;
-  font-weight: bold;
 }
 
 /* product - view */
+.view_box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .view {
   width: 130px;
   height: 30px;
-  margin: 0 auto;
   background-color: rgb(28, 45, 90);
   border-radius: 8px;
   box-sizing: border-box;
   padding: 6px 22px;
   margin-bottom: 50px;
   text-align: center;
-}
-
-.view a {
   font-size: 12px;
   color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 /* promotion */
