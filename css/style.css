@@ -400,13 +400,13 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   /* 기본 CSS 스타일을 적용하지 않기 위해서 */
   appearance: none;
   /* 기본 CSS 스타일을 적용하지 않기 위해서 */
-  width: 50px;
+  width: 55px;
   /* 슬라이더 핸들 길이 */
-  height: 50px;
+  height: 55px;
   /* 슬라이더 핸들 높이 */
   border-radius: 50%;
   /* 핸들 모양을 원모양으로 만들기 위함 */
-  background:url(../images/lp.png) no-repeat 50% 0;
+  background:url(../images/lp_y.png) no-repeat 50% 0;
   background-size: cover;
   /* 슬라이더 핸들 색상 */
   cursor: pointer;
@@ -539,8 +539,7 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   width: 100%;
 }
 
-#magazine .container ul {
-  list-style: none;
+#magazine .container ul {  
   -webkit-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
   -o-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
   transition: all 0.25s cubic-bezier(1, .01, .32, 1);
@@ -555,7 +554,7 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 }
 
 .f_top {
-  width: 90%;
+  width: 80%;
   height: 260px;
   margin: 0 auto;
   display: flex;
@@ -586,7 +585,7 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 }
 
 .f_menu {
-  width: 760px;
+  width: 500px;
 }
 
 .f_menu>ul {
@@ -596,13 +595,17 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   justify-content: space-between;
 }
 
-.f_menu>ul>li {
-  font-size: 13px;
+.f_menu > ul > li {
+  font-size: 15px;
   font-weight: bold;
 }
 
 .sub_menu {
   margin-top: 20px;
+}
+.sub_menu li{
+  margin-bottom: 6px;
+  font-size: 12px;
 }
 
 .f_bottom {
