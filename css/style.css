@@ -129,13 +129,21 @@
   color: rgb(95, 95, 95);
 }
 
-#contents .contents_line {
+/* #contents .contents_line {
   width: 60%;
-  height: 5px;
+  height: 0.1px;
+  background-color: rgb(28, 45, 90);
   margin: 0 auto;
   border-bottom: 2px solid rgb(28, 45, 90);
   box-sizing: border-box;
   padding-top: 15px;
+} */
+#contents .header_line{
+  width: 60%;
+  height:3px;
+  margin: 15px auto;
+  background-color:  rgb(59, 70, 108);
+  border: 0;
 }
 
 /* product */
