@@ -1,4 +1,4 @@
-# 🎵 _Soundlook Team Project_
+# 🎵 _Soundlook Team Project_ 🎶
 
 ## 💽 Link (Soundlook)
 ![mainimage](https://user-images.githubusercontent.com/100752008/177665396-3b242cc1-f873-4f10-92ff-ba2b56913f8b.png)
