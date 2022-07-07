@@ -1,7 +1,7 @@
-## 🔎 Link (Soundlook)
+## 💽 Link (Soundlook)
 [Soundlook 바로가기](https://huunguk.github.io/SoundLook)
 
-## 💽 Description
+## 🔎 Description
 Soundlook은 ~
 
 <!-- 여행을 기반으로한 정보 공유 및 커뮤니티 기능을 가지고 있습니다.
