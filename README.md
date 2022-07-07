@@ -1,10 +1,11 @@
 
 
 ## 💽 Link (Soundlook)
+![mainimage](https://user-images.githubusercontent.com/100752008/177665396-3b242cc1-f873-4f10-92ff-ba2b56913f8b.png)
 [Soundlook 바로가기](https://huunguk.github.io/SoundLook)
 
 ## 🔎 Description
-![mainimage](https://user-images.githubusercontent.com/100752008/177665396-3b242cc1-f873-4f10-92ff-ba2b56913f8b.png)
+
 **Soundlook**은 ~
 
 <!-- 여행을 기반으로한 정보 공유 및 커뮤니티 기능을 가지고 있습니다.
