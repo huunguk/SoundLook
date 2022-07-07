@@ -2,7 +2,8 @@
 
 ## 💽 Link (Soundlook)
 ![mainimage](https://user-images.githubusercontent.com/100752008/177665396-3b242cc1-f873-4f10-92ff-ba2b56913f8b.png)
-[Soundlook 바로가기](https://huunguk.github.io/SoundLook)
+
+### [Soundlook 바로가기](https://huunguk.github.io/SoundLook)
 
 ## 🔎 Description
 
