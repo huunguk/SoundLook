@@ -4,12 +4,12 @@ let currentImg = 3;
 
 view.addEventListener('click',function(event){
     //console.log('check')
-    for(let i = currentImg; i < currentImg + 3; i++){
+    for(let i = currentImg; i < currentImg + 2; i++){
         if(img[i]){
              img[i].style.display = 'block';
         }
     }
-    currentImg += 3;
+    currentImg += 2;
     if(currentImg >= img.length){
         event.target.style.display = 'none';
     }
