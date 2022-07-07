@@ -5,7 +5,7 @@
 ## 💽 Link (Soundlook)
 ![mainimage](https://user-images.githubusercontent.com/100752008/177665396-3b242cc1-f873-4f10-92ff-ba2b56913f8b.png)
 
-### [Soundlook 바로가기](https://huunguk.github.io/SoundLook)
+### [Go To "Soundlook"](https://huunguk.github.io/SoundLook)
 
 <br>
 
@@ -26,7 +26,7 @@ We are traveling의 약자이며 여행자들을 대상으로 서비스를 제�
 <br>
 
 ## ⏰ Develop Period
-2022년 5월 15일 ~  
+2022. 05. 15 ~  
 
 <br>
 
