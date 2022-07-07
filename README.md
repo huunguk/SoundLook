@@ -19,9 +19,9 @@ We are traveling의 약자이며 여행자들을 대상으로 서비스를 제�
 2022년 5월 15일 ~  
 
 ## 👩‍💻 Collaborator
-- 김태이
-- 안하진
-- 진형욱
+- [김태이](https://github.com/taeyeess)
+- [안하진](https://github.com/hajinAHN)
+- [진형욱](https://github.com/huunguk)
 
 ## 📌 TroubleShooting 
 ### 1. Turntable section
