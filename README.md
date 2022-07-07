@@ -4,7 +4,7 @@
 [Soundlook 바로가기](https://huunguk.github.io/SoundLook)
 
 ## 🔎 Description
-<img width='400" height="300" src="https://user-images.githubusercontent.com/100752008/177665253-23824d13-cdc8-49ef-8394-64c7f9df25fd.png">
+![mainimage](https://user-images.githubusercontent.com/100752008/177665396-3b242cc1-f873-4f10-92ff-ba2b56913f8b.png)
 **Soundlook**은 ~
 
 <!-- 여행을 기반으로한 정보 공유 및 커뮤니티 기능을 가지고 있습니다.
