@@ -32,3 +32,8 @@ We are traveling의 약자이며 여행자들을 대상으로 서비스를 제�
 ### 2. Megazine section
 #### ❔ Why :
 #### ☑️ Solutions : 
+
+***
+### 3. 
+#### ❔ Why :
+#### ☑️ Solutions : 
