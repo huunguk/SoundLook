@@ -23,3 +23,10 @@ We are traveling의 약자이며 여행자들을 대상으로 서비스를 제�
 - 진형욱
 
 ## 📌 TroubleShooting 
+### 1. Turntable section
+![turntableimage](https://user-images.githubusercontent.com/100752008/177665718-a54e1b42-74d1-4dc9-b994-827838fd902b.PNG)
+
+### - 이유 : 
+
+***
+###2. 
