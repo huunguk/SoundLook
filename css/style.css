@@ -437,8 +437,9 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 /* MAGAZINE */
 #magazine {
   width: 100%;
-  height: 1000px;
+  height: 900px;
   background-color: rgb(233, 233, 233);
+  
 }
 
 
@@ -455,7 +456,7 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 
 #magazine .m_box {
   width: 80%;
-  height: 600px;
+  height: 400px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -465,32 +466,21 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 }
 
 
-
-#magazine .m_box .m_r {
-  width: 50%;
-  height: 300px;
-  align-items: none;
-  /* background-color: brown;  */
-  padding-top: 40px;
-}
-
-#magazine .m_box .m_r img {
-  width: 100%;
-  /* padding-top: 40px; */
-  /* border-radius: 10px; */
-}
-
 #magazine .m_box .m_l {
   width: 50%;
   height: 300px;
-  text-align: right;
-  padding: 180px 80px 0 0;
+  /* text-align: right; */
+  padding: 80px 0 0 100px;
+  box-sizing: border-box;  
   
-  /* background-color: aquamarine; */
-  /* padding-top: 50px; */
+  
 }
-
-#magazine .m_box .m_l > h3 {
+#magazine .m_box .m_l > h3{
+  /* font-style: italic; */
+  letter-spacing: 5px;
+  font-family: 'Gowun Batang', serif;
+}
+#magazine .m_box .m_l > h4 {
   font-size: 53px;
   font-family: 'Gowun Batang', serif;
   color: black;
@@ -499,50 +489,61 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 
 }
 
-#magazine .m_box .m_l>p {
+#magazine .m_box .m_l > p {
   margin-bottom: 20px;
   font-size: 16px;
 }
 
-
-#magazine .m_box .m_l>a {
-  font-size: 20px;
-  color: gray;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-  font-family: 'Hahmlet', serif;
-  letter-spacing: 2px;
-
+#magazine .m_box .m_l > span{   
+  font-size: 18px;
+  margin-right: 15px;
+  
 }
+
+#magazine .m_box .m_l > a {
+  
+  font-size: 18px;
+  color: gray; 
+  /* font-family: 'Hahmlet', serif; */
+  letter-spacing: 2px;
+}
+
+#magazine .m_box .m_l > a:hover{  
+  transition: all 0.3s;
+  text-shadow: 1px 1px 2px rgb(150, 150, 150);
+} 
+
+
 
 /* megazine 사진 슬라이드 효과 */
 #magazine .container {
-  width: 50%;
-  height: 500px;
-  margin: 0 auto;
+  width: 45%;
+  height: 400px;
+  /* background-color: chartreuse; */
+  /* margin: 0 auto; */
   position: relative;
   overflow: hidden;
 }
 
-#magazine .slider {
+#magazine ul.slider {
   display: flex;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
-}
-
-#magazine .slider .item {
-  width: 100%;
-}
-
-#magazine .slider .item>img {
-  width: 100%;
-}
-
-#magazine .container ul {  
   -webkit-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
   -o-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
   transition: all 0.25s cubic-bezier(1, .01, .32, 1);
 }
+
+#magazine ul.slider li.item {
+  width: 100%;
+}
+
+#magazine ul.slider li.item img {
+  width: 100%;
+}
+
 
 
 /* footer */
