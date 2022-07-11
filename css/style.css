@@ -213,7 +213,7 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  top:40px;
+  top:60px;
   color: black;
   width: 100%;
   padding: 15px;
@@ -224,12 +224,15 @@
 
 
 .product .product_img .back h3 {
-  font-size: 16px;
-  line-height: 40px;
+  font-size: 15px;
+  line-height: 30px;
   overflow: hidden; 
   white-space: nowrap;
   text-overflow: ellipsis;
-  padding-bottom: 10px;
+  padding-bottom: 18px;
+  font-weight: 300;
+  color:rgb(70, 70, 70);
+  letter-spacing: 1px;
 }
 
 .product .product_img .back p{
@@ -258,6 +261,7 @@
 
 .product .product_img .product_txt span {
   font-size: 16px;
+  font-weight: bold;
 }
 
 /* product - view */
@@ -324,7 +328,7 @@
 #best .slidecontainer {
   width: 960px;     
   overflow: hidden;
-  margin-bottom: 50px;
+  margin-bottom: 65px;
   border: 1px solid #999;
   box-sizing: border-box;
   
@@ -399,9 +403,9 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   /* 기본 CSS 스타일을 적용하지 않기 위해서 */
   appearance: none;
   /* 기본 CSS 스타일을 적용하지 않기 위해서 */
-  width: 55px;
+  width: 85px;
   /* 슬라이더 핸들 길이 */
-  height: 55px;
+  height: 85px;
   /* 슬라이더 핸들 높이 */
   border-radius: 50%;
   /* 핸들 모양을 원모양으로 만들기 위함 */
