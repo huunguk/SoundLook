@@ -305,16 +305,16 @@
 /* best  */
 #best {
   width: 100%;
-  height: 800px;
+  height: 900px;
   background-color: rgb(226, 225, 231);
   margin: 100px 0;
 }
 
 #best > h2 {
   /* background-color: aquamarine; */
-  padding: 100px 0 30px 0;
+  padding: 100px 0 50px 0;
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 #best .slidebox{
@@ -373,7 +373,7 @@
   
 }
 #best .slidecontainer ul li.list .list_txt h2{
-  font-size: 20px;
+  font-size: 23px;
   margin-bottom: 10px;
   
 }
