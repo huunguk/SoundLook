@@ -372,7 +372,6 @@
 
 }
 
-
 #best .slidecontainer ul li.list .list_img {
   width: 50%;
   height: 50%;
@@ -385,26 +384,28 @@
   box-shadow: 5px 5px 10px grey;
 }
 
-
 #best .slidecontainer ul li.list .list_txt {
   width: 50%;
   height: 200px;
-  padding: 130px 0 0 30px;
+  padding: 120px 0 0 30px;
   box-sizing: border-box;
+}
 
-
+#best .slidecontainer ul li.list .list_txt h3{
+  font-size: 25px; 
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
 #best .slidecontainer ul li.list .list_txt h2 {
-  font-size: 23px;
-  margin-bottom: 10px;
-
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 #best .slidecontainer ul li.list .list_txt p {
   font-size: 13px;
   line-height: 20px;
-
 }
 
 #best .slidebox .sliderrange {
