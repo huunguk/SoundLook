@@ -127,24 +127,30 @@
   font-size: 20px;
   font-weight: bold;
   color: rgb(95, 95, 95);
+  position: relative;
+
 }
 
-/* #contents .contents_line {
-  width: 60%;
-  height: 0.1px;
-  background-color: rgb(28, 45, 90);
-  margin: 0 auto;
-  border-bottom: 2px solid rgb(28, 45, 90);
-  box-sizing: border-box;
-  padding-top: 15px;
-} */
-#contents .header_line{
-  width: 60%;
-  height:3px;
-  margin: 15px auto;
-  background-color:  rgb(59, 70, 108);
-  border: 0;
+
+#con_header .menu ul li a::before {
+  content: '';
+  height: 4px;
+  width: 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: 0.3s;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
 }
+
+#con_header .menu ul li a:hover::before {
+  width: 100%;
+  background-color: rgb(28, 45, 90);
+
+}
+
+
 
 /* product */
 .product {
@@ -161,14 +167,15 @@
   /* height:1200px; */
 }
 
-.product .product_img:nth-child(1){
+.product .product_img:nth-child(1) {
   display: block;
 }
 
-.product .product_img:nth-child(2){
+.product .product_img:nth-child(2) {
   display: block;
 }
-.product .product_img:nth-child(3){
+
+.product .product_img:nth-child(3) {
   display: block;
 }
 
@@ -195,8 +202,11 @@
 .product .product_img .product_txt:before {
   content: '';
   background: #fff;
-  width: 0px; height: 1px;
-  position: absolute; right: 20px; top: 20px;
+  width: 0px;
+  height: 1px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
   transition: all 0.35s ease;
 }
 
@@ -204,16 +214,19 @@
 .product .product_img .product_txt:after {
   content: '';
   background: #fff;
-  width: 1px; height: 0px;
-  position: absolute; right: 20px; top: 20px;
+  width: 1px;
+  height: 0px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
   transition: all 0.35s ease;
 }
 
-.product .product_img .back{
+.product .product_img .back {
   position: absolute;
   left: 0;
   bottom: 0;
-  top:60px;
+  top: 60px;
   color: black;
   width: 100%;
   padding: 15px;
@@ -226,22 +239,22 @@
 .product .product_img .back h3 {
   font-size: 15px;
   line-height: 30px;
-  overflow: hidden; 
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   padding-bottom: 18px;
   font-weight: 300;
-  color:rgb(70, 70, 70);
+  color: rgb(70, 70, 70);
   letter-spacing: 1px;
 }
 
-.product .product_img .back p{
+.product .product_img .back p {
   font-size: 18px;
   font-weight: bold;
-  overflow: hidden; 
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  color:navy;
+  color: navy;
 }
 
 .product_txt:hover .back {
@@ -265,11 +278,12 @@
 }
 
 /* product - view */
-.view_box{
+.view_box {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 .view {
   width: 130px;
   height: 30px;
@@ -310,14 +324,14 @@
   margin: 100px 0;
 }
 
-#best > h2 {
+#best>h2 {
   /* background-color: aquamarine; */
   padding: 100px 0 50px 0;
   text-align: center;
   font-size: 45px;
 }
 
-#best .slidebox{
+#best .slidebox {
   margin: 0 auto;
   display: flex;
   width: 960px;
@@ -326,20 +340,20 @@
 }
 
 #best .slidecontainer {
-  width: 960px;     
+  width: 960px;
   overflow: hidden;
   margin-bottom: 65px;
   border: 1px solid #999;
   box-sizing: border-box;
-  
+
 }
 
-#best .slidecontainer ul {  
-  display: flex;  
+#best .slidecontainer ul {
+  display: flex;
   transition: all .5s ease-in-out;
 }
 
-#best .slidecontainer ul li.list{
+#best .slidecontainer ul li.list {
   width: 960px;
   height: 466px;
   display: flex;
@@ -347,7 +361,7 @@
   border-right: 1px solid #999;
   box-sizing: border-box;
   background-color: rgb(249, 248, 253);
- 
+
 }
 
 
@@ -360,30 +374,34 @@
 
 #best .slidecontainer ul li.list .list_img img {
   width: 95%;
-  box-shadow: 5px 5px 10px grey;  
+  box-shadow: 5px 5px 10px grey;
 }
 
 
 #best .slidecontainer ul li.list .list_txt {
   width: 50%;
   height: 200px;
-  padding: 130px 0 0 30px;  
+  padding: 130px 0 0 30px;
   box-sizing: border-box;
-   
-  
+
+
 }
-#best .slidecontainer ul li.list .list_txt h2{
+
+#best .slidecontainer ul li.list .list_txt h2 {
   font-size: 23px;
   margin-bottom: 10px;
-  
+
 }
-#best .slidecontainer ul li.list .list_txt p{
+
+#best .slidecontainer ul li.list .list_txt p {
   font-size: 13px;
   line-height: 20px;
-  
+
 }
+
 #best .slidebox .sliderrange {
-  -webkit-appearance: none;  /* 기본 CSS 스타일을 적용하지 않기 위해서 */  
+  -webkit-appearance: none;
+  /* 기본 CSS 스타일을 적용하지 않기 위해서 */
   /* 슬라이더 길이 */
   height: 15px;
   /* 슬라이더 두께 */
@@ -409,7 +427,7 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   /* 슬라이더 핸들 높이 */
   border-radius: 50%;
   /* 핸들 모양을 원모양으로 만들기 위함 */
-  background:url(../images/lp_y.png) no-repeat 50% 0;
+  background: url(../images/lp_y.png) no-repeat 50% 0;
   background-size: cover;
   /* 슬라이더 핸들 색상 */
   cursor: pointer;
@@ -441,14 +459,14 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 /* MAGAZINE */
 #magazine {
   width: 100%;
-  height: 900px;
+  height: 600px;
   background-color: rgb(233, 233, 233);
-  
+
 }
 
 
 #magazine .m_text>h3 {
-  padding: 150px 190px 50px 0; 
+  padding: 50px 190px 50px 0;
   text-align: right;
   font-size: 60px;
   /* background-color: aqua; */
@@ -475,16 +493,18 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   height: 300px;
   /* text-align: right; */
   padding: 80px 0 0 100px;
-  box-sizing: border-box;  
-  
-  
+  box-sizing: border-box;
+
+
 }
-#magazine .m_box .m_l > h3{
+
+#magazine .m_box .m_l>h3 {
   /* font-style: italic; */
   letter-spacing: 5px;
   font-family: 'Gowun Batang', serif;
 }
-#magazine .m_box .m_l > h4 {
+
+#magazine .m_box .m_l>h4 {
   font-size: 53px;
   font-family: 'Gowun Batang', serif;
   color: black;
@@ -493,38 +513,37 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 
 }
 
-#magazine .m_box .m_l > p {
+#magazine .m_box .m_l>p {
   margin-bottom: 20px;
   font-size: 16px;
 }
 
-#magazine .m_box .m_l > span{   
+#magazine .m_box .m_l>span {
   font-size: 18px;
   margin-right: 15px;
-  
+
 }
 
-#magazine .m_box .m_l > a {
-  
+#magazine .m_box .m_l>a {
+
   font-size: 18px;
-  color: gray; 
+  color: gray;
   /* font-family: 'Hahmlet', serif; */
   letter-spacing: 2px;
 }
 
-#magazine .m_box .m_l > a:hover{  
+#magazine .m_box .m_l>a:hover {
   transition: all 0.3s;
   text-shadow: 1px 1px 2px rgb(150, 150, 150);
-} 
+}
 
 
 
 /* megazine 사진 슬라이드 효과 */
 #magazine .container {
   width: 45%;
-  height: 400px;
+  /* height: 600px; */
   /* background-color: chartreuse; */
-  /* margin: 0 auto; */
   position: relative;
   overflow: hidden;
 }
@@ -532,6 +551,8 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 #magazine ul.slider {
   display: flex;
   width: 100%;
+  height: 600px;
+  /* display: block; */
   position: absolute;
   top: 0;
   left: 0;
@@ -599,7 +620,7 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   justify-content: space-between;
 }
 
-.f_menu > ul > li {
+.f_menu>ul>li {
   font-size: 15px;
   font-weight: bold;
 }
@@ -607,7 +628,8 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 .sub_menu {
   margin-top: 20px;
 }
-.sub_menu li{
+
+.sub_menu li {
   margin-bottom: 6px;
   font-size: 12px;
 }
