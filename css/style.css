@@ -134,7 +134,7 @@
   content: '';
   height: 4px;
   width: 0px;
-  
+
   border-radius: 10px;
   transition: 0.3s;
   position: absolute;
@@ -148,7 +148,7 @@
 
 }
 
-.on{
+.on {
   width: 100%;
   height: 4px;
   background-color: rgb(28, 45, 90);
@@ -328,15 +328,17 @@
 #best {
   width: 100%;
   height: 900px;
-  background-color: rgb(226, 225, 231);
+  background-image: url(../images/배경/배경3.jpg);
+  background-size: cover;
   margin: 100px 0;
 }
 
 #best>h2 {
-  /* background-color: aquamarine; */
   padding: 100px 0 50px 0;
   text-align: center;
-  font-size: 45px;
+  font-size: 60px;
+  font-family: 'Hahmlet', serif;
+  color: rgb(231, 231, 231)
 }
 
 #best .slidebox {
@@ -391,8 +393,8 @@
   box-sizing: border-box;
 }
 
-#best .slidecontainer ul li.list .list_txt h3{
-  font-size: 25px; 
+#best .slidecontainer ul li.list .list_txt h3 {
+  font-size: 25px;
   font-weight: bold;
   margin-bottom: 30px;
 }
@@ -416,7 +418,7 @@
   /* 슬라이더 두께 */
   border-radius: 5px;
   /* 슬라이더 모서리를 약간 둥글게 */
-  background: #ccc;
+  background: white;
   /* 슬라이더 색상 */
   outline: none;
   /* 슬라이더 테두리 없이 */
@@ -449,31 +451,29 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 
 #turntable {
   width: 100%;
-    
+
 }
 
-#turntable h3 { 
-  font-size: 38px;
+#turntable h3 {
   text-align: center;
-  padding-bottom:80px;
-  
-  font-size: 60px;
+  padding-bottom: 80px;
+  font-size: 48px;
   font-family: 'Hahmlet', serif;
   color: black;
 }
 
-#turntable .t_container{
+#turntable .t_container {
   width: 80%;
   height: 500px;
-  
   margin-bottom: 30px;
-  margin:0 auto;
+  margin: 0 auto;
   overflow: hidden;
 }
-#turntable .t_container .t_slider{
+
+#turntable .t_container .t_slider {
   width: 100%;
-  position: relative;  
-  
+  position: relative;
+
   display: flex;
   animation: bannermove 30s linear infinite alternate-reverse;
 }
@@ -482,33 +482,35 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   from {
     left: 0px;
   }
+
   to {
     left: -2800px;
   }
 }
 
-#turntable .t_container .t_slider li{
+#turntable .t_container .t_slider li {
   width: 100%;
   margin: 0px 80px;
-} 
-#turntable .t_container .t_slider li a img{
+}
+
+#turntable .t_container .t_slider li a img {
   width: 400px;
 }
 
-#turntable .controls{
-	text-align: center;
+#turntable .controls {
+  text-align: center;
   width: 100%;
   height: 120px;
-      
+
 }
 
-#turntable .controls p{
-	background:#333;
-	color: #fff;
-	width: 60px;
+#turntable .controls p {
+  background: #333;
+  color: #fff;
+  width: 60px;
   height: 5px;
-	display: inline-block;
-  margin:0 5px;  
+  display: inline-block;
+  margin: 0 5px;
 }
 
 
@@ -516,53 +518,45 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 /* MAGAZINE */
 #magazine {
   width: 100%;
-  height: 600px;
-  background-color: rgb(233, 233, 233);
-
+  height: 800px;
+  /* background-color: rgb(233, 233, 233); */
+  display: flex;
+  margin-top: 150px;
 }
 
-
+/* 
 #magazine .m_text>h3 {
   padding: 50px 190px 50px 0;
   text-align: right;
   font-size: 60px;
-  /* background-color: aqua; */
   font-family: 'Hahmlet', serif;
   color: black;
 
-}
+} */
 
 
 #magazine .m_box {
-  width: 80%;
-  height: 400px;
+  width: 50%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  /* background-color: chartreuse; */
-  /* box-sizing: border-box; */
-  /* padding-top: 20px; */
+
 }
 
 
 #magazine .m_box .m_l {
   width: 50%;
-  height: 300px;
-  /* text-align: right; */
-  padding: 80px 0 0 100px;
-  box-sizing: border-box;
-
+  padding: 100px 0 0 100px;
 
 }
 
 #magazine .m_box .m_l>h3 {
-  /* font-style: italic; */
   letter-spacing: 5px;
-  font-family: 'Gowun Batang', serif;
+  font-family: 'Hahmlet', serif;
 }
 
 #magazine .m_box .m_l>h4 {
-  font-size: 53px;
+  font-size: 60px;
   font-family: 'Gowun Batang', serif;
   color: black;
   margin-bottom: 30px;
@@ -571,8 +565,9 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 }
 
 #magazine .m_box .m_l>p {
+  width: 600px;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #magazine .m_box .m_l>span {
@@ -598,18 +593,16 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 
 /* megazine 사진 슬라이드 효과 */
 #magazine .container {
-  width: 45%;
-  /* height: 600px; */
-  /* background-color: chartreuse; */
+  width: 50%;
+  height: 550px;
   position: relative;
   overflow: hidden;
 }
 
-#magazine ul.slider {
+#magazine .slider {
   display: flex;
   width: 100%;
   height: 600px;
-  /* display: block; */
   position: absolute;
   top: 0;
   left: 0;
@@ -657,13 +650,19 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 }
 
 .sns {
-  width: 150px;
+  width: 180px;
   margin-top: 10px;
 }
 
 .sns ul {
   display: flex;
   justify-content: space-between;
+}
+
+#footer .sns img {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
 }
 
 .f_menu {
