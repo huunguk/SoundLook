@@ -327,18 +327,30 @@
 /* best  */
 #best {
   width: 100%;
-  height: 900px;
-  background-image: url(../images/배경/배경3.jpg);
-  background-size: cover;
+  height: 1000px;
   margin: 100px 0;
+  background-image: url(../images/배경/배경3-1.jpg);
+  background-size: cover;
 }
 
+/* 
+#best::before {
+  content: "";
+  width: 100%;
+  height: 900px;
+  margin: 100px 0;
+  background-image: url(../images/배경/배경3.jpg);
+  background-size: cover;
+  opacity: 0.2;
+} */
+
 #best>h2 {
-  padding: 100px 0 50px 0;
+  padding: 150px 0 50px 0;
   text-align: center;
   font-size: 60px;
   font-family: 'Hahmlet', serif;
-  color: rgb(231, 231, 231)
+  color: rgb(0, 0, 0);
+  text-shadow: 4px 4px 4px rgb(41, 41, 41);
 }
 
 #best .slidebox {
@@ -451,11 +463,12 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 
 #turntable {
   width: 100%;
-
+  height: 1000px;
 }
 
 #turntable h3 {
   text-align: center;
+  padding-top: 200px;
   padding-bottom: 80px;
   font-size: 48px;
   font-family: 'Hahmlet', serif;
@@ -464,8 +477,8 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 
 #turntable .t_container {
   width: 80%;
-  height: 500px;
-  margin-bottom: 30px;
+  height: 600px;
+  padding-top: 100px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -518,10 +531,10 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 /* MAGAZINE */
 #magazine {
   width: 100%;
-  height: 800px;
+  height: 1000px;
   /* background-color: rgb(233, 233, 233); */
   display: flex;
-  margin-top: 150px;
+  padding-top: 250px;
 }
 
 /* 
@@ -546,8 +559,8 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 
 #magazine .m_box .m_l {
   width: 50%;
-  padding: 100px 0 0 100px;
-
+  padding: 140px 0 0 180px;
+  /* background-color: aqua; */
 }
 
 #magazine .m_box .m_l>h3 {
@@ -662,7 +675,7 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 #footer .sns img {
   width: 25px;
   height: 25px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .f_menu {
