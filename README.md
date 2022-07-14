@@ -39,8 +39,7 @@ We are traveling의 약자이며 여행자들을 대상으로 서비스를 제�
 
 ## 📌 TroubleShooting 
 ### 1. Turntable section
-![turntableimage](https://user-images.githubusercontent.com/100752008/177665718-a54e1b42-74d1-4dc9-b994-827838fd902b.PNG)
-#### ❔ Why :
+![best](https://user-images.githubusercontent.com/100752008/178894308-9a8264c1-eca5-4882-86dc-e0e32a4bfad6.png)#### ❔ Why :
 #### ☑️ Solutions : 
 
 ***
