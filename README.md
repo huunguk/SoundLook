@@ -44,7 +44,8 @@ We are traveling의 약자이며 여행자들을 대상으로 서비스를 제�
 #### ☑️ Solutions : 
 
 ***
-### 2. Megazine section
+### 2. main section > image css hover event
+![image css hover event](https://user-images.githubusercontent.com/100752008/178894189-b278348a-14d8-4c28-942d-27122ab1a3f9.png)
 #### ❔ Why :
 #### ☑️ Solutions : 
 
