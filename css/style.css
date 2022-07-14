@@ -95,33 +95,26 @@
 /* 컨텐츠 */
 #contents {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 150px;
+  position: relative;
 }
 
 #con_header {
   width: 50%;
+  height: 50px;
   margin: 0 auto;
-  padding-top: 80px;
-  /* background-color: aqua; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* background-color: aqua;   */
 }
 
-#con_header .menu {
-  width: 100%;
-  height: 50px;
-
-}
-
-#con_header .menu ul {
+#con_header ul.list {
   display: flex;
   height: 50px;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
-#con_header .menu ul li a {
+#con_header ul li a {
   font-size: 20px;
   font-weight: bold;
   color: rgb(95, 95, 95);
@@ -130,11 +123,10 @@
 }
 
 
-#con_header .menu ul li a::before {
+#con_header ul li a::before {
   content: '';
   height: 4px;
-  width: 0px;
-  
+  width: 0px;  
   border-radius: 10px;
   transition: 0.3s;
   position: absolute;
@@ -142,13 +134,13 @@
   left: 0;
 }
 
-#con_header .menu ul li a:hover::before {
+#con_header ul li a:hover::before {
   width: 100%;
   background-color: rgb(28, 45, 90);
 
 }
 
-.on{
+.is.on .btn{
   width: 100%;
   height: 4px;
   background-color: rgb(28, 45, 90);
@@ -163,43 +155,55 @@
 /* product */
 .product {
   width: 60%;
+  height: 1800px;
   margin: 0 auto;
   padding-top: 100px;
   /* background-color: blanchedalmond; */
 }
+.product .cont{
+  width: 60%; 
+  position:absolute;
+  top:25px;
+  left:0; 
+}
+
 
 /* product 1 */
-.product .product_img {
+.product .cont .product_img {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
   display: none;
   /* height:1200px; */
 }
 
-.product .product_img:nth-child(1) {
+.product .cont .product_img:nth-child(1) {
   display: block;
 }
 
-.product .product_img:nth-child(2) {
+.product .cont .product_img:nth-child(2) {
   display: block;
 }
 
-.product .product_img:nth-child(3) {
+.product .cont .product_img:nth-child(3) {
   display: block;
 }
 
-.product .product_img ul {
+/* .product .cont .product_img ul {
   display: flex;
   justify-content: space-between;
   margin-bottom: 120px;
-}
+} */
 
-.product .product_img li {
-  width: 300px;
+/* .product .cont .product_img li {
+  width: 300px; */
   /* height: 220px;     */
   /* background-color: blue; */
-}
+/* } */
 
-.product .product_img .product_txt {
+.product .cont .product_img .product_txt {
+  width: 300px;
   text-align: center;
   cursor: pointer;
   overflow: hidden;
@@ -207,7 +211,7 @@
 }
 
 
-.product .product_img .product_txt:before {
+.product .cont .product_img .product_txt:before {
   content: '';
   background: #fff;
   width: 0px;
@@ -219,7 +223,7 @@
 }
 
 
-.product .product_img .product_txt:after {
+.product .cont .product_img .product_txt:after {
   content: '';
   background: #fff;
   width: 1px;
@@ -230,7 +234,7 @@
   transition: all 0.35s ease;
 }
 
-.product .product_img .back {
+.product .cont .product_img .back {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -244,7 +248,7 @@
 }
 
 
-.product .product_img .back h3 {
+.product .cont .product_img .back h3 {
   font-size: 15px;
   line-height: 30px;
   overflow: hidden;
@@ -256,7 +260,7 @@
   letter-spacing: 1px;
 }
 
-.product .product_img .back p {
+.product .cont .product_img .back p {
   font-size: 18px;
   font-weight: bold;
   overflow: hidden;
