@@ -1,632 +1,721 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoundLook</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gowun+Batang:wght@400;700&family=Hahmlet:wght@500;600&family=Song+Myung&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SoundLook</title>
-  <link rel="stylesheet" type="text/css" href="./css/reset.css" />
-  <link rel="stylesheet" type="text/css" href="./css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gowun+Batang:wght@400;700&family=Hahmlet:wght@500;600&family=Song+Myung&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <div id="wrap">
-    <!-- 헤더 -->
-    <div id="header_video">
-      <video width="100%" autoplay muted>
-        <source src="./video/Above a record player.mp4" />
-      </video>
-    </div>
-    <header id="header">
-      <div class="info">
-        <h1 class="logo">
-          <a href="#" alt="사운드룩로고">
-            <img src="https://soundlook.co.kr/_dj/img/logo.png" />
-          </a>
-        </h1>
-        <ul class="mn">
-          <li><a href="#">ABOUT US</a></li>
-          <li><a href="#">MAGAZINE</a></li>
-        </ul>
+  <body>
+    <div id="wrap">
+      <!-- 헤더 -->
+      <div id="header_video">
+        <video width="100%" autoplay muted>
+          <source src="./video/Above a record player.mp4" />
+        </video>
       </div>
-      <div class="login">
-        <ul>
-          <li><a href="#">Sign in</a></li>
-          <li class="login_btn"><a href="#">Login</a></li>
-        </ul>
-      </div>
-    </header>
-    <div id="main_txt">
-      <h3>
-        EXPLORE THE WORLD'S<br />
-        SOUNDLOOK
-      </h3>
-      <p>내가 찾는 사운드가 바로, 지금, 여기</p>
-    </div>
-    <section id="contents">
-      <header id="con_header">
-        <div class="menu">
+      <header id="header">
+        <div class="info">
+          <h1 class="logo">
+            <a href="#" alt="사운드룩로고">
+              <img src="https://soundlook.co.kr/_dj/img/logo.png" />
+            </a>
+          </h1>
+          <ul class="mn">
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">MAGAZINE</a></li>
+          </ul>
+        </div>
+        <div class="login">
           <ul>
-            <li><a href="#">LP</a></li>
-            <li><a href="#">TURNTABLE</a></li>
-            <li><a href="#">TECH</a></li>
-            <li><a href="#">ACC</a></li>
-            <li><a href="#">LIFE STYLE</a></li>
+            <li><a href="#">Sign in</a></li>
+            <li class="login_btn"><a href="#">Login</a></li>
           </ul>
         </div>
       </header>
-      <!-- product -->
-      <article class="product">
-        <div class="product_img">
-          <ul>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/squid - bright green field.png" />
-                </a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 7 Jan 2021<br>
-                    Genre: Rock<br>
-                    Style: Pop, Rock<br>
-                  </h3>
-                  <p>$USD 21</p>
-                </div>
-                <span>Squid - Bright Green Field</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/photay - on hold.png" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released:5 Mar 2020<br>
-                    Genre: Electronic<br>
-                    Style: Electronic<br>
-                  </h3>
-                  <p>$USD 24</p>
-                </div>
-                <span>Photay - On Hold</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/sam gendel - drm.png" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 16 Apr 2021<br>
-                    Genre: Jazz<br>
-                    Style: Free Jazz, Avant-garde Jazz<br>
-                  </h3>
-                  <p>$USD 20</p>
-                </div>
-                <span>Sam Gendel - DRM</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="product_img">
-          <ul>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/ben lamar gay - open arms to open us.png" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 19 Nov 2021<br>
-                    Genre: Jazz<br>
-                    Style: Jazz<br>
-                  </h3>
-                  <p>$USD 26</p>
-                </div>
-                <span>Ben Lamar Gay - Open Arms To Open Us</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/men i trust - untourable album.png" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 8 Oct 2021<br>
-                    Genre: Rock<br>
-                    Style: Indie Pop<br>
-                  </h3>
-                  <p>$USD 31</p>
-                </div>
-                <span>Men I Trust - Untourable Album</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/baby boys - threesome.png" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 12 Mar 2021<br>
-                    Genre: Rock<br>
-                    Style: Rock, Indie Pop<br>
-                  </h3>
-                  <p>$USD 23</p>
-                </div>
-                <span>Baby Boys - Threesome</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="product_img">
-          <ul>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/james blake - freinds that break your heart.png" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 8 Oct 2021<br>
-                    Genre: Electronic, Pop<br>
-                    Style: Pop<br>
-                  </h3>
-                  <p>$USD 34</p>
-                </div>
-                <span>James Blake - Freinds That Break Your Heart</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/alessia cara - in the meantime.png" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 8 Apr 2022<br>
-                    Genre: Rap/Hip Hop, Soul<br>
-                    Style: Electronic , Vocal<br>
-                  </h3>
-                  <p>$USD 21</p>
-                </div>
-                <span>Alessia Cara - In The Meantime</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/brothertiger - out of touch.png" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 6 Nov 2020<br>
-                    Genre: Electronic<br>
-                    Style: Electronic<br>
-                  </h3>
-                  <p>$USD 26</p>
-                </div>
-                <span>Brothertiger - Out Of Touch</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <!-- view more(hidden) -->
-        <div class="product_img">
-          <ul>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/Bill Evans Trio -Waltz for Debby.jpg" />
-                </a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 2012<br>
-                    Genre: Post Bop, Modal<br>
-                    Style: Post Bop, Modal<br>
-                  </h3>
-                  <p>$USD 22</p>
-                </div>
-                <span>Bill Evans Trio - Waltz for Debby</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/True Loves - Sunday Afternoon.jpg" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 18 Jun 2021<br>
-                    Genre: Jazz<br>
-                    Style: Jazz<br>
-                  </h3>
-                  <p>$USD 27</p>
-                </div>
-                <span>True Loves - Sunday Afternoon</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/Brittany Howard - Jaime Reimagined.jpg" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 24 Sep 2021<br>
-                    Genre: Soul Funk<br>
-                    Style: Rock, Funk / Soul, Pop<br>
-                  </h3>
-                  <p>$USD 29</p>
-                </div>
-                <span>Brittany Howard - Jaime Reimagined</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="product_img">
-          <ul>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/Pink Floyd - Live At Knebworth 1990.jpg" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 30 Apr 2021<br>
-                    Genre: Rock<br>
-                    Style: Indie Pop, Indie Rock<br>
-                  </h3>
-                  <p>$USD 38</p>
-                </div>
-                <span>Pink Floyd - Live At Knebworth 1990</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/KE$HA - High Road.jpg " /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 25 Feb 2022<br>
-                    Genre: Vocal<br>
-                    Style: Pop, RnB<br>
-                  </h3>
-                  <p>$USD 31</p>
-                </div>
-                <span>KE$HA - High Road</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/Nf - Clouds.jpg" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 21 May 2021<br>
-                    Genre: Rap/Hip Hop<br>
-                    Style: Hip Hop<br>
-                  </h3>
-                  <p>$USD 28</p>
-                </div>
-                <span>Nf - Threesome</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="product_img">
-          <ul>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/Lany - gg bb xx.jpg" />
-                </a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 14 Jan 2022<br>
-                    Genre: Electronic, Pop<br>
-                    Style: Alternative Rock, Synth-pop<br>
-                  </h3>
-                  <p>$USD 32</p>
-                </div>
-                <span>Lany - gg bb xx</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/The Lumineers - Brightside.jpg" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 14 Jan 2022<br>
-                    Genre: Rock<br>
-                    Style: Rock, Pop<br>
-                  </h3>
-                  <p>$USD 27</p>
-                </div>
-                <span>The Lumineers - Brightside</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/Men I Trust - Headroom.jpg" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 2 Mar 2018<br>
-                    Genre: Rock<br>
-                    Style: Blues Rock<br>
-                  </h3>
-                  <p>$USD 32</p>
-                </div>
-                <span>Men I Trust - Headroom</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="product_img">
-          <ul>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/Jeremy Ivey - Waiting Out The Storm.jpg" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 16 Oct 2020<br>
-                    Genre: Folk<br>
-                    Style: Folk Rock<br>
-                  </h3>
-                  <p>$USD 26</p>
-                </div>
-                <span>Jeremy Ivey - Waiting Out The Storm</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/Benee - Hey U X.jpg" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us, Eu<br>
-                    Released: 19 Mar 2021<br>
-                    Genre: Rock<br>
-                    Style: Indie Pop<br>
-                  </h3>
-                  <p>$USD 29</p>
-                </div>
-                <span>Benee - Hey U X</span>
-              </div>
-            </li>
-            <li>
-              <div class="product_txt">
-                <a href="#"><img src="./images/product/Sir Sly - You Haunt Me.jpg" /></a>
-                <div class="back">
-                  <h3>
-                    Country: Us , Eu<br>
-                    Released: 16 Sep 2014<br>
-                    Genre: Electronic, Rock<br>
-                    Style: Indie Pop, Rock<br>
-                  </h3>
-                  <p>$USD 26</p>
-                </div>
-                <span>Sir Sly - You Haunt Me</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </article>
-      <div class="view_box">
-        <button class="view">Load more</button>
+      <div id="main_txt">
+        <h3>
+          EXPLORE THE WORLD'S<br />
+          SOUNDLOOK
+        </h3>
+        <p>내가 찾는 사운드가 바로, 지금, 여기</p>
       </div>
-    </section>
-    <!-- best -->
-    <section id="best">
-      <h2>BEST SELLER</h2>
-      <div class="slidebox">
-        <article class="slidecontainer">
-          <ul>
-            <li class="list">
-              <div class="list_img">
-                <img src="./images/best pick.png" alt="" />
-              </div>
-              <div class="list_txt">
-                <h3>
-                  비틀즈의 마지막앨범
-                </h3>
-                <h2>
-                  "The Beatles - Abbey Road" <br />
-                </h2>
-                <p>
-                  Label: Capitol, Apple Records,UM<br />
-                  Format: Vinyl, LP, Album, Misprint<br />
-                  Country: Ukj ,Us<br />
-                  Released: 27 Sep 2019<br />
-                  Genre: Rock<br />
-                  Style: Pop Rock
-                </p>
-              </div>
+      <section id="contents">
+        <header id="con_header">
+          <nav class="menu">
+            <ul>
+              <li><a href="#">LP</a></li>
+              <li><a href="#">TURNTABLE</a></li>
+              <li><a href="#">TECH</a></li>
+              <li><a href="#">ACC</a></li>
+              <li><a href="#">LIFE STYLE</a></li>
+            </ul>
+          </nav>
+        </header>
+        <!-- product -->
+        <article class="product">
+          <div class="product_img">
+            <ul>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img
+                      src="./images/product/squid - bright green field.png"
+                    />
+                  </a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 7 Jan 2021<br />
+                      Genre: Rock<br />
+                      Style: Pop, Rock<br />
+                    </h3>
+                    <p>$USD 21</p>
+                  </div>
+                  <span>Squid - Bright Green Field</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img src="./images/product/photay - on hold.png"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released:5 Mar 2020<br />
+                      Genre: Electronic<br />
+                      Style: Electronic<br />
+                    </h3>
+                    <p>$USD 24</p>
+                  </div>
+                  <span>Photay - On Hold</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img src="./images/product/sam gendel - drm.png"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 16 Apr 2021<br />
+                      Genre: Jazz<br />
+                      Style: Free Jazz, Avant-garde Jazz<br />
+                    </h3>
+                    <p>$USD 20</p>
+                  </div>
+                  <span>Sam Gendel - DRM</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="product_img">
+            <ul>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img
+                      src="./images/product/ben lamar gay - open arms to open us.png"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 19 Nov 2021<br />
+                      Genre: Jazz<br />
+                      Style: Jazz<br />
+                    </h3>
+                    <p>$USD 26</p>
+                  </div>
+                  <span>Ben Lamar Gay - Open Arms To Open Us</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img
+                      src="./images/product/men i trust - untourable album.png"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 8 Oct 2021<br />
+                      Genre: Rock<br />
+                      Style: Indie Pop<br />
+                    </h3>
+                    <p>$USD 31</p>
+                  </div>
+                  <span>Men I Trust - Untourable Album</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img src="./images/product/baby boys - threesome.png"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 12 Mar 2021<br />
+                      Genre: Rock<br />
+                      Style: Rock, Indie Pop<br />
+                    </h3>
+                    <p>$USD 23</p>
+                  </div>
+                  <span>Baby Boys - Threesome</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="product_img">
+            <ul>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img
+                      src="./images/product/james blake - freinds that break your heart.png"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 8 Oct 2021<br />
+                      Genre: Electronic, Pop<br />
+                      Style: Pop<br />
+                    </h3>
+                    <p>$USD 34</p>
+                  </div>
+                  <span>James Blake - Freinds That Break Your Heart</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img
+                      src="./images/product/alessia cara - in the meantime.png"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 8 Apr 2022<br />
+                      Genre: Rap/Hip Hop, Soul<br />
+                      Style: Electronic , Vocal<br />
+                    </h3>
+                    <p>$USD 21</p>
+                  </div>
+                  <span>Alessia Cara - In The Meantime</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img
+                      src="./images/product/brothertiger - out of touch.png"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 6 Nov 2020<br />
+                      Genre: Electronic<br />
+                      Style: Electronic<br />
+                    </h3>
+                    <p>$USD 26</p>
+                  </div>
+                  <span>Brothertiger - Out Of Touch</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- view more(hidden) -->
+          <div class="product_img">
+            <ul>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img
+                      src="./images/product/Bill Evans Trio -Waltz for Debby.jpg"
+                    />
+                  </a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 2012<br />
+                      Genre: Post Bop, Modal<br />
+                      Style: Post Bop, Modal<br />
+                    </h3>
+                    <p>$USD 22</p>
+                  </div>
+                  <span>Bill Evans Trio - Waltz for Debby</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img
+                      src="./images/product/True Loves - Sunday Afternoon.jpg"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 18 Jun 2021<br />
+                      Genre: Jazz<br />
+                      Style: Jazz<br />
+                    </h3>
+                    <p>$USD 27</p>
+                  </div>
+                  <span>True Loves - Sunday Afternoon</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img
+                      src="./images/product/Brittany Howard - Jaime Reimagined.jpg"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 24 Sep 2021<br />
+                      Genre: Soul Funk<br />
+                      Style: Rock, Funk / Soul, Pop<br />
+                    </h3>
+                    <p>$USD 29</p>
+                  </div>
+                  <span>Brittany Howard - Jaime Reimagined</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="product_img">
+            <ul>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img
+                      src="./images/product/Pink Floyd - Live At Knebworth 1990.jpg"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 30 Apr 2021<br />
+                      Genre: Rock<br />
+                      Style: Indie Pop, Indie Rock<br />
+                    </h3>
+                    <p>$USD 38</p>
+                  </div>
+                  <span>Pink Floyd - Live At Knebworth 1990</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img src="./images/product/KE$HA - High Road.jpg "
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 25 Feb 2022<br />
+                      Genre: Vocal<br />
+                      Style: Pop, RnB<br />
+                    </h3>
+                    <p>$USD 31</p>
+                  </div>
+                  <span>KE$HA - High Road</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"><img src="./images/product/Nf - Clouds.jpg" /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 21 May 2021<br />
+                      Genre: Rap/Hip Hop<br />
+                      Style: Hip Hop<br />
+                    </h3>
+                    <p>$USD 28</p>
+                  </div>
+                  <span>Nf - Threesome</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="product_img">
+            <ul>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img src="./images/product/Lany - gg bb xx.jpg" />
+                  </a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 14 Jan 2022<br />
+                      Genre: Electronic, Pop<br />
+                      Style: Alternative Rock, Synth-pop<br />
+                    </h3>
+                    <p>$USD 32</p>
+                  </div>
+                  <span>Lany - gg bb xx</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img src="./images/product/The Lumineers - Brightside.jpg"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 14 Jan 2022<br />
+                      Genre: Rock<br />
+                      Style: Rock, Pop<br />
+                    </h3>
+                    <p>$USD 27</p>
+                  </div>
+                  <span>The Lumineers - Brightside</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img src="./images/product/Men I Trust - Headroom.jpg"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 2 Mar 2018<br />
+                      Genre: Rock<br />
+                      Style: Blues Rock<br />
+                    </h3>
+                    <p>$USD 32</p>
+                  </div>
+                  <span>Men I Trust - Headroom</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="product_img">
+            <ul>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img
+                      src="./images/product/Jeremy Ivey - Waiting Out The Storm.jpg"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 16 Oct 2020<br />
+                      Genre: Folk<br />
+                      Style: Folk Rock<br />
+                    </h3>
+                    <p>$USD 26</p>
+                  </div>
+                  <span>Jeremy Ivey - Waiting Out The Storm</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img src="./images/product/Benee - Hey U X.jpg"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us, Eu<br />
+                      Released: 19 Mar 2021<br />
+                      Genre: Rock<br />
+                      Style: Indie Pop<br />
+                    </h3>
+                    <p>$USD 29</p>
+                  </div>
+                  <span>Benee - Hey U X</span>
+                </div>
+              </li>
+              <li>
+                <div class="product_txt">
+                  <a href="#"
+                    ><img src="./images/product/Sir Sly - You Haunt Me.jpg"
+                  /></a>
+                  <div class="back">
+                    <h3>
+                      Country: Us , Eu<br />
+                      Released: 16 Sep 2014<br />
+                      Genre: Electronic, Rock<br />
+                      Style: Indie Pop, Rock<br />
+                    </h3>
+                    <p>$USD 26</p>
+                  </div>
+                  <span>Sir Sly - You Haunt Me</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <div class="view_box">
+          <button class="view">Load more</button>
+        </div>
+      </section>
+      <!-- best -->
+      <section id="best">
+        <h2>BEST SELLER</h2>
+        <div class="slidebox">
+          <article class="slidecontainer">
+            <ul>
+              <li class="list">
+                <div class="list_img">
+                  <img src="./images/best pick.png" alt="" />
+                </div>
+                <div class="list_txt">
+                  <h3>비틀즈의 마지막앨범</h3>
+                  <h2>"The Beatles - Abbey Road" <br /></h2>
+                  <p>
+                    Label: Capitol, Apple Records,UM<br />
+                    Format: Vinyl, LP, Album, Misprint<br />
+                    Country: Ukj ,Us<br />
+                    Released: 27 Sep 2019<br />
+                    Genre: Rock<br />
+                    Style: Pop Rock
+                  </p>
+                </div>
+              </li>
+              <li class="list">
+                <div class="list_img">
+                  <img
+                    src="./images/product/alessia cara - in the meantime.png"
+                    alt=""
+                  />
+                </div>
+                <div class="list_txt">
+                  <h3>떡잎부터 남다른 싱어송라이터</h3>
+                  <h2>" Alessia Cara - In The Meantime" <br /></h2>
+                  <p>
+                    Label: Def Jam<br />
+                    Format: 2x Vinyl, LP, Album<br />
+                    Country: Us, Eu<br />
+                    Released: 8 Apr 2022<br />
+                    Genre: Rap/ Hip Hop, soul<br />
+                    Style: Electronic, Vocal
+                  </p>
+                </div>
+              </li>
+              <li class="list">
+                <div class="list_img">
+                  <img
+                    src="./images/product/Bill Evans Trio -Waltz for Debby.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="list_txt">
+                  <h3>빌 에반스의 대표곡</h3>
+                  <h2>"Bill Evans Trio - Waltz for Debby"<br /></h2>
+                  <p>
+                    Label: WaxTime<br />
+                    Format: Vinyl, LP, Album, Reissue, Remastered,<br />
+                    Limited Edition, Stereo, 180 Gram<br />
+                    Country: Us , Eu<br />
+                    Released: 2012<br />
+                    Genre: Post Bop, Modal<br />
+                    Style: Post Bop, Modal<br />
+                  </p>
+                </div>
+              </li>
+              <li class="list">
+                <div class="list_img">
+                  <img
+                    src="./images/product/Billie Eilish - WHEN WE ALL FALL ASLEEP, WHERE DO WE GO.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="list_txt">
+                  <h3>천재 싱어송라이터</h3>
+                  <h2>
+                    "Billie Eilish - <br />
+                    WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?"
+                  </h2>
+                  <p>
+                    Label: Darkroom, Interscope Records<br />
+                    Format: Vinyl, LP, Album, Apricot,Yellow LP<br />
+                    Country: US <br />
+                    Released: 29 Mar 2019 <br />
+                    Genre: Electronic, Pop<br />
+                    Style: Trap, Indie Pop<br />
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </article>
+          <input
+            type="range"
+            min="0"
+            max="30"
+            value="0"
+            class="sliderrange"
+            id="range"
+            step="0.1"
+          />
+        </div>
+      </section>
+      <!-- 턴테이블 -->
+      <section id="turntable">
+        <h3>TURNTABLE</h3>
+        <article class="t_container">
+          <ul class="t_slider">
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/turntable/255e8de80aee6e28e90938010b4d76b8.jpg"
+              /></a>
             </li>
-            <li class="list">
-              <div class="list_img">
-                <img src="./images/product/alessia cara - in the meantime.png" alt="" />
-              </div>
-              <div class="list_txt">
-                <h3>
-                  떡잎부터 남다른 싱어송라이터
-                </h3>
-                <h2>
-                  " Alessia Cara - In The Meantime" <br />
-                </h2>
-                <p>
-                  Label: Def Jam<br />
-                  Format: 2x Vinyl, LP, Album<br />
-                  Country: Us, Eu<br />
-                  Released: 8 Apr 2022<br />
-                  Genre: Rap/ Hip Hop, soul<br />
-                  Style: Electronic, Vocal
-                </p>
-              </div>
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/turntable/44a55263a37e4dd46533caf44146fcb2.jpg"
+              /></a>
             </li>
-            <li class="list">
-              <div class="list_img">
-                <img src="./images/product/Bill Evans Trio -Waltz for Debby.jpg" alt="" />
-              </div>
-              <div class="list_txt">
-                <h3>
-                  빌 에반스의 대표곡
-                </h3>
-                <h2>
-                  "Bill Evans Trio - Waltz for Debby"<br />
-                </h2>
-                <p>
-                  Label: WaxTime<br />
-                  Format: Vinyl, LP, Album, Reissue, Remastered,<br>
-                  Limited Edition, Stereo, 180 Gram<br />
-                  Country: Us , Eu<br />
-                  Released: 2012<br />
-                  Genre: Post Bop, Modal<br />
-                  Style: Post Bop, Modal<br />
-                </p>
-              </div>
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/turntable/70b101b01a1cd698cd2564724741fc73.jpg"
+              /></a>
             </li>
-            <li class="list">
-              <div class="list_img">
-                <img src="./images/product/Billie Eilish - WHEN WE ALL FALL ASLEEP, WHERE DO WE GO.jpg" alt="" />
-              </div>
-              <div class="list_txt">
-                <h3>
-                  천재 싱어송라이터
-                </h3>
-                <h2>
-                  "Billie Eilish - <br> WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?"
-                </h2>
-                <p>
-                  Label: Darkroom, Interscope Records<br />
-                  Format: Vinyl, LP, Album, Apricot,Yellow LP<br />
-                  Country: US <br />
-                  Released: 29 Mar 2019 <br />
-                  Genre: Electronic, Pop<br />
-                  Style: Trap, Indie Pop<br />
-                </p>
-              </div>
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/turntable/e67c8472479e7ac1d40a6702f30adde2.jpg"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/turntable/reloop-rp-7000-mkii.jpg"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/turntable/c3349f82e9ac46eaa30eec93280dabc7.jpg"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/turntable/project-the-classic-review.jpg"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/turntable/e67c8472479e7ac1d40a6702f30adde2.jpg"
+              /></a>
             </li>
           </ul>
         </article>
-        <input type="range" min="0" max="30" value="0" class="sliderrange" id="range" step="0.1">
-      </div>
-    </section>
-    <!-- 턴테이블 -->
-    <section id="turntable">
-      <h3>TURNTABLE</h3>
-      <article class="t_container">
-        <ul class="t_slider">
-          <li><a href="#"><img src="./images/turntable/255e8de80aee6e28e90938010b4d76b8.jpg"></a></li>
-          <li><a href="#"><img src="./images/turntable/44a55263a37e4dd46533caf44146fcb2.jpg"></a></li>
-          <li><a href="#"><img src="./images/turntable/70b101b01a1cd698cd2564724741fc73.jpg"></a></li>
-          <li><a href="#"><img src="./images/turntable/e67c8472479e7ac1d40a6702f30adde2.jpg"></a></li>
-          <li><a href="#"><img src="./images/turntable/reloop-rp-7000-mkii.jpg"></a></li>
-          <li><a href="#"><img src="./images/turntable/c3349f82e9ac46eaa30eec93280dabc7.jpg"></a></li>
-          <li><a href="#"><img src="./images/turntable/project-the-classic-review.jpg"></a></li>
-          <li><a href="#"><img src="./images/turntable/e67c8472479e7ac1d40a6702f30adde2.jpg"></a></li>
-        </ul>
-      </article>
-      <div class="controls">
-        <p class="prev"></p>
-        <p class="next"></p>
-      </div>
-    </section>
-    <!-- MAGAZINE  -->
-    <section id="magazine">
-      <article class="m_box">
-        <div class="m_l">
-          <h3>
-            SOUND LOOK
-          </h3>
-          <h4>
-            MAGAZINE
-          </h4>
-          <p>
-            사운드룩은 우리의 삶과 밀접한 음악의 가치를 잘 알고, 이를 소중하게 생각하기에<br>
-            이러한 가치와 느낌을 잘 구현할 수 있는 훌륭한 음향기기를 만들고 있습니다.
-          </p>
-          <span>&#8640;</span>
-          <a href="#">load more</a>
+        <div class="controls">
+          <p class="prev"></p>
+          <p class="next"></p>
         </div>
-      </article>
-      <!-- megazine 사진 슬라이드 효과 -->
-      <div class="container">
-        <ul class="slider">
-          <li class="item"><img src="./images/megazine/lp table.jpg"></li>
-          <li class="item"><img src="./images/megazine/magazine.jpg"></li>
-          <li class="item"><img src="./images/megazine/megazine2.jpg"></li>
-          <li class="item"><img src="./images/megazine/men.jpg"></li>
-        </ul>
-      </div>
-    </section>
-    <!-- footer -->
-    <footer id="footer">
-      <div class="f_top">
-        <div class="f_main">
-          <h2 class="f_logo">
-            <img src="./images/f_main_logo.png" alt="로고" />
-          </h2>
-          <p>
-            soundlook is the world’s leading<br />
-            community for creatives to share, grow<br />
-            and get hired.<br />
-          </p>
-          <div class="sns">
+      </section>
+      <!-- MAGAZINE  -->
+      <section id="magazine">
+        <article class="m_box">
+          <div class="m_l">
+            <h3>SOUND LOOK</h3>
+            <h4>MAGAZINE</h4>
+            <p>
+              사운드룩은 우리의 삶과 밀접한 음악의 가치를 잘 알고, 이를 소중하게
+              생각하기에<br />
+              이러한 가치와 느낌을 잘 구현할 수 있는 훌륭한 음향기기를 만들고
+              있습니다.
+            </p>
+            <span>&#8640;</span>
+            <a href="#">load more</a>
+          </div>
+        </article>
+        <!-- megazine 사진 슬라이드 효과 -->
+        <div class="container">
+          <ul class="slider">
+            <li class="item"><img src="./images/megazine/lp table.jpg" /></li>
+            <li class="item"><img src="./images/megazine/magazine.jpg" /></li>
+            <li class="item"><img src="./images/megazine/megazine2.jpg" /></li>
+            <li class="item"><img src="./images/megazine/men.jpg" /></li>
+          </ul>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer id="footer">
+        <div class="f_top">
+          <div class="f_main">
+            <h2 class="f_logo">
+              <img src="./images/f_main_logo.png" alt="로고" />
+            </h2>
+            <p>
+              soundlook is the world’s leading<br />
+              community for creatives to share, grow<br />
+              and get hired.<br />
+            </p>
+            <div class="sns">
+              <ul>
+                <li><img src="./images/icon/twitter.png" /></li>
+                <li><img src="./images/icon/insta.png" /></li>
+                <li><img src="./images/icon/facebook.png" /></li>
+                <li><img src="./images/icon/mail.png" /></li>
+              </ul>
+            </div>
+          </div>
+          <div class="f_menu">
             <ul>
-              <li><img src="./images/icon/twitter.png"></li>
-              <li><img src="./images/icon/insta.png"></li>
-              <li><img src="./images/icon/facebook.png"></li>
-              <li><img src="./images/icon/mail.png"></li>
+              <li>
+                ABOUT US
+                <ul class="sub_menu">
+                  <li><a href="#">회사소개</a></li>
+                  <li><a href=" #">연혁</a></li>
+                </ul>
+              </li>
+              <li>
+                MY PAGE
+                <ul class="sub_menu">
+                  <li><a href="#">주문조회</a></li>
+                  <li><a href=" #">장바구니</a></li>
+                  <li><a href="#">마이쿠폰</a></li>
+                </ul>
+              </li>
+              <li>
+                PRODUCTS
+                <ul class="sub_menu">
+                  <li><a href="#">턴테이블</a></li>
+                  <li><a href=" #">LP음반</a></li>
+                  <li><a href="#">TECH</a></li>
+                  <li><a href=" #">ACC</a></li>
+                </ul>
+              </li>
+              <li>
+                COMMUNITY
+                <ul class="sub_menu">
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">뉴스/미디어</a></li>
+                  <li><a href="#">고객후기</a></li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
-        <div class="f_menu">
-          <ul>
-            <li>
-              ABOUT US
-              <ul class="sub_menu">
-                <li><a href="#">회사소개</a></li>
-                <li><a href=" #">연혁</a></li>
-              </ul>
-            </li>
-            <li>
-              MY PAGE
-              <ul class="sub_menu">
-                <li><a href="#">주문조회</a></li>
-                <li><a href=" #">장바구니</a></li>
-                <li><a href="#">마이쿠폰</a></li>
-              </ul>
-            </li>
-            <li>
-              PRODUCTS
-              <ul class=" sub_menu">
-                <li><a href="#">턴테이블</a></li>
-                <li><a href=" #">LP음반</a></li>
-                <li><a href="#">TECH</a></li>
-                <li><a href=" #">ACC</a></li>
-              </ul>
-            </li>
-            <li>
-              COMMUNITY
-              <ul class="sub_menu">
-                <li><a href="#">공지사항</a></li>
-                <li><a href="#">뉴스/미디어</a></li>
-                <li><a href="#">고객후기</a></li>
-              </ul>
-            </li>
-          </ul>
+        <div class="f_bottom">
+          <p>copyright 2022 (주)사운드룩. all right reserved</p>
         </div>
-      </div>
-      <div class=" f_bottom">
-        <p>copyright 2022 (주)사운드룩. all right reserved</p>
-      </div>
-    </footer>
-  </div>
-  <script src="./js/viewmore.js"></script>
-  <script src="./js/dragslide.js"></script>
-  <script src="./js/slide.js"></script>
-</body>
-
+      </footer>
+    </div>
+    <script src="./js/viewmore.js"></script>
+    <script src="./js/dragslide.js"></script>
+    <script src="./js/slide.js"></script>
+  </body>
 </html>
