@@ -1,1 +1,3 @@
-document.querySelector()
+"use strcit";
+
+document.querySelector();

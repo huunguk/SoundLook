@@ -4,11 +4,10 @@
 
 /* header */
 #header_video {
-  width: 100%; 
+  width: 100%;
   /* height: 600px;   */
   z-index: -1;
 }
-
 
 #header {
   width: 100%;
@@ -23,7 +22,8 @@
   left: 0;
 }
 
-#header .info {}
+#header .info {
+}
 
 #header .info .logo {
   float: left;
@@ -53,7 +53,8 @@
   color: rgb(221, 218, 218);
 }
 
-#header .login {}
+#header .login {
+}
 
 #header .login li {
   float: left;
@@ -84,11 +85,11 @@
   text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
-#main_txt>h3 {
+#main_txt > h3 {
   font-size: 60px;
 }
 
-#main_txt>p {
+#main_txt > p {
   padding-top: 30px;
   font-size: 30px;
 }
@@ -112,7 +113,6 @@
 #con_header .menu {
   width: 100%;
   height: 50px;
-
 }
 
 #con_header .menu ul {
@@ -127,12 +127,10 @@
   font-weight: bold;
   color: rgb(95, 95, 95);
   position: relative;
-
 }
 
-
 #con_header .menu ul li a::before {
-  content: '';
+  content: "";
   height: 4px;
   width: 0px;
   border-radius: 10px;
@@ -145,7 +143,6 @@
 #con_header .menu ul li a:hover::before {
   width: 100%;
   background-color: rgb(28, 45, 90);
-
 }
 
 .on {
@@ -158,7 +155,6 @@
   bottom: -8px;
   left: 0;
 }
-
 
 /* product */
 .product {
@@ -206,9 +202,8 @@
   position: relative;
 }
 
-
 .product .product_img .product_txt:before {
-  content: '';
+  content: "";
   background: #fff;
   width: 0px;
   height: 1px;
@@ -218,9 +213,8 @@
   transition: all 0.35s ease;
 }
 
-
 .product .product_img .product_txt:after {
-  content: '';
+  content: "";
   background: #fff;
   width: 1px;
   height: 0px;
@@ -242,7 +236,6 @@
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
-
 
 .product .product_img .back h3 {
   font-size: 15px;
@@ -348,7 +341,7 @@
   padding: 130px 0 80px 0;
   text-align: center;
   font-size: 40px;
-  font-family: 'Hahmlet', serif;
+  font-family: "Hahmlet", serif;
   color: rgb(0, 0, 0);
   text-shadow: 4px 4px 4px rgb(41, 41, 41);
 }
@@ -367,12 +360,11 @@
   margin-bottom: 65px;
   border: 1px solid #999;
   box-sizing: border-box;
-
 }
 
 #best .slidecontainer ul {
   display: flex;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #best .slidecontainer ul li.list {
@@ -383,14 +375,12 @@
   border-right: 1px solid #999;
   box-sizing: border-box;
   background-color: rgb(249, 248, 253);
-
 }
 
 #best .slidecontainer ul li.list .list_img {
-  width: 50%; 
+  width: 50%;
   padding: 30px;
   box-sizing: border-box;
-  
 }
 
 #best .slidecontainer ul li.list .list_img img {
@@ -457,8 +447,6 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   /* 슬라이더 핸들에 마우스를 갖다대면 포인터로 변경 */
 }
 
-
-
 /* 턴테이블 */
 
 #turntable {
@@ -471,7 +459,7 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   padding-top: 80px;
   padding-bottom: 80px;
   font-size: 40px;
-  font-family: 'Hahmlet', serif;
+  font-family: "Hahmlet", serif;
   color: black;
 }
 
@@ -486,9 +474,11 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 #turntable .t_container .t_slider {
   width: 100%;
   position: relative;
-
   display: flex;
-  animation: bannermove 30s linear infinite alternate-reverse;
+  animation: bannermove 20s linear infinite alternate-reverse;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes bannermove {
@@ -514,7 +504,6 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   text-align: center;
   width: 100%;
   height: 120px;
-
 }
 
 #turntable .controls p {
@@ -525,8 +514,6 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   display: inline-block;
   margin: 0 5px;
 }
-
-
 
 /* MAGAZINE */
 #magazine {
@@ -547,15 +534,12 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 
 } */
 
-
 #magazine .m_box {
   width: 50%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-
 }
-
 
 #magazine .m_box .m_l {
   width: 50%;
@@ -563,46 +547,41 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   /* background-color: aqua; */
 }
 
-#magazine .m_box .m_l>h3 {
+#magazine .m_box .m_l > h3 {
   letter-spacing: 5px;
-  font-family: 'Hahmlet', serif;
+  font-family: "Hahmlet", serif;
 }
 
-#magazine .m_box .m_l>h4 {
+#magazine .m_box .m_l > h4 {
   font-size: 60px;
-  font-family: 'Gowun Batang', serif;
+  font-family: "Gowun Batang", serif;
   color: black;
   margin-bottom: 30px;
   font-style: italic;
-
 }
 
-#magazine .m_box .m_l>p {
+#magazine .m_box .m_l > p {
   width: 600px;
   margin-bottom: 20px;
   font-size: 18px;
 }
 
-#magazine .m_box .m_l>span {
+#magazine .m_box .m_l > span {
   font-size: 18px;
   margin-right: 15px;
-
 }
 
-#magazine .m_box .m_l>a {
-
+#magazine .m_box .m_l > a {
   font-size: 18px;
   color: gray;
   /* font-family: 'Hahmlet', serif; */
   letter-spacing: 2px;
 }
 
-#magazine .m_box .m_l>a:hover {
+#magazine .m_box .m_l > a:hover {
   transition: all 0.3s;
   text-shadow: 1px 1px 2px rgb(150, 150, 150);
 }
-
-
 
 /* megazine 사진 슬라이드 효과 */
 #magazine .container {
@@ -619,9 +598,9 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
-  -o-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
-  transition: all 0.25s cubic-bezier(1, .01, .32, 1);
+  -webkit-transition: all 0.25s cubic-bezier(1, 0.01, 0.32, 1);
+  -o-transition: all 0.25s cubic-bezier(1, 0.01, 0.32, 1);
+  transition: all 0.25s cubic-bezier(1, 0.01, 0.32, 1);
 }
 
 #magazine ul.slider li.item {
@@ -631,8 +610,6 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
 #magazine ul.slider li.item img {
   width: 100%;
 }
-
-
 
 /* footer */
 #footer {
@@ -682,14 +659,14 @@ Firefox 브라우저를 위해서는 -moz- 를 사용하세요 */
   width: 500px;
 }
 
-.f_menu>ul {
+.f_menu > ul {
   margin-top: 70px;
   text-align: center;
   display: flex;
   justify-content: space-between;
 }
 
-.f_menu>ul>li {
+.f_menu > ul > li {
   font-size: 15px;
   font-weight: bold;
 }

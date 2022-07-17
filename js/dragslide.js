@@ -1,3 +1,5 @@
+"use strcit";
+
 const range = document.querySelector("#range");
 const slideContainerUl = document.querySelector(".slidecontainer ul");
 
@@ -7,8 +9,8 @@ function handleSlide(e) {
   slideContainerUl.style.marginLeft = `${value * -80}px`;
 }
 
-function init () {
-  range.addEventListener('change', handleSlide);
+function init() {
+  range.addEventListener("change", handleSlide);
 }
 
 init();
